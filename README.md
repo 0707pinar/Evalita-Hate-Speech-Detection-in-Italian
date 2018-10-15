@@ -8,9 +8,39 @@ In order to run the classifier, the following resources are needed.
 
 # Scripts
 After getting the necessary resources, you can run the following scripts available in this repository:
-- *(1) "extract_italian_emolex.py"* will yield the "italian_NRC_emolex.txt" containing Italian emotion and sentiment bearing words along with NRC EmoLex labels. 
-- This txt file is needed for *(2) "evalita_hate_speech_detection_preprocessing.py".*
-- Upon getting "italian_NRC_emolex.txt", you can run *(3) "evalita_hate_speech_detection_classifier.py".*
+- *(1) "extract_italian_emolex.py"* ==> to yield the "italian_NRC_emolex.txt" containing Italian emotion and sentiment bearing words along with NRC EmoLex labels. 
+- *(2) "evalita_hate_speech_detection_preprocessing.py".* ==> to preprocess the Evalita dataset and to use labels such as word-level emotion and sentiment labels 
+- *(3) "evalita_hate_speech_detection_classifier.py".* ==> The classifier yielded macro average f1-score of 0.78 when run on the test set provided by Evalita.
 
+# References
+@inproceedings{HaSpeeDe2018Evalita,
+  author    = {Bosco, Cristina  and Dell'Orletta, Felice and  Poletto, Fabio  and  Sanguinetti, Manuela and Tesconi, Maurizio},
+  title     = {{Overview of the Evalita 2018 Hate Speech Detection Task}},
+  booktitle = {Proceedings CLiC-it 2018 and EVALITA 2018},
+  month     = {December},
+  year      = {2018},
+  address   = {Torino, Italy},
+  publisher = {AILC}
+}
+
+@article{mohammad2013crowdsourcing,
+  title={Crowdsourcing a word--emotion association lexicon},
+  author={Mohammad, Saif M and Turney, Peter D},
+  journal={Computational Intelligence},
+  volume={29},
+  number={3},
+  pages={436--465},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+
+@inproceedings{mohammad2010emotions,
+  title={Emotions evoked by common words and phrases: Using Mechanical Turk to create an emotion lexicon},
+  author={Mohammad, Saif M and Turney, Peter D},
+  booktitle={Proceedings of the NAACL HLT 2010 workshop on computational approaches to analysis and generation of emotion in text},
+  pages={26--34},
+  year={2010},
+  organization={Association for Computational Linguistics}
+}
 
 

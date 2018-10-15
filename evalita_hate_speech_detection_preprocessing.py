@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-SHARED TASK EVALITA HATE SPEECH DETECTION IN ITALIAN
-____________________________________________________
+SHARED TASK EVALITA-2018 HATE SPEECH DETECTION IN ITALIAN
+_________________________________________________________
 Subtask I: HaSpeeDe-TW
 Team name: InriaFBK
 

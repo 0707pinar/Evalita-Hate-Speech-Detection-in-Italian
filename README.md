@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Hate Speech Detection
 =======
 # Hate Speech Detection Classifier 
@@ -21,4 +20,3 @@ Cristina  Bosco,   Felice  Dell’Orletta,   Fabio  Poletto,Manuela Sanguinetti,
 Saif M Mohammad and Peter D Turney.  2010.  Emotions  evoked  by  common  words  and  phrases:  Using mechanical turk to create an emotion lexicon. In Proceedings of the NAACL HLT 2010 workshop on computational approaches to analysis and generation of emotion in text, pages 26–34. Association forComputational Linguistics.
 
 Saif M Mohammad and Peter D Turney. 2013. Crowdsourcing a word–emotion association lexicon. Computational Intelligence, 29(3):436–465.
->>>>>>> Evalita-hate-speech-detection

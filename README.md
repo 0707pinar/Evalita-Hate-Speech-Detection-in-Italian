@@ -8,7 +8,7 @@ In order to run the classifier, the following resources are needed.
 2. NRC Emotion Lexicon (i.e., NRC-Emotion-Lexicon-v0.92-In105Languages-Nov2017Translations.xlsx) ==> obtained upon request (https://www.nrc-cnrc.gc.ca/eng/solutions/advisory/emotion_lexicons.html)
 
 # Scripts
-After getting the necessary resources, you can run the use the following scripts available in this repository:
+After getting the necessary resources, you can run the following scripts available in this repository:
 *(1) "extract_italian_emolex.py"* will yield the "italian_NRC_emolex.txt" containing Italian emotion and sentiment bearing words along with NRC EmoLex labels. This txt file is needed for *(2) "evalita_hate_speech_detection_preprocessing.py".* Upon getting "italian_NRC_emolex.txt", you can run *(3) "evalita_hate_speech_detection_classifier.py".*
 
 

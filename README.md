@@ -1,5 +1,3 @@
-Hate Speech Detection
-=======
 # Hate Speech Detection Classifier 
 This repository contains hate speech detection classifier built for the Evalita 2018 - Shared Task on Hate Speech Detection in Italian Twitter. More specifically, the hate speech detection classifier introduced here was used in Evalita HaSpeeDe-TW (i.e., subtask I). For  hate  speech  detection  on  Twitter,  LinearSVC-based  model  was used which  was  based  on  unigrams. The model had  penalty  parameter C of  0.7  and  “balanced” class_weight parameter. This classifier ranked 6th  out  of  19  submissions  in  terms  of  macro average  f-score.
 

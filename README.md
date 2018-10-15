@@ -15,8 +15,6 @@ After getting the necessary resources, you can run the following scripts availab
 # References
 Cristina  Bosco,   Felice  Dell’Orletta,   Fabio  Poletto,Manuela Sanguinetti, and Maurizio Tesconi.  2018. Overview of the Evalita 2018 Hate Speech Detection Task.   In Proceedings CLiC-it 2018 and EVALITA2018, Torino, Italy, December. AILC.
 
-Saif M Mohammad and Peter D Turney.  2010.  Emotions  evoked  by  common  words  and  phrases:  Using mechanical turk to create an emotion lexicon. InProceedings of the NAACL HLT 2010 workshop oncomputational approaches to analysis and generation of emotion in text, pages 26–34. Association forComputational Linguistics.
+Saif M Mohammad and Peter D Turney.  2010.  Emotions  evoked  by  common  words  and  phrases:  Using mechanical turk to create an emotion lexicon. In Proceedings of the NAACL HLT 2010 workshop on computational approaches to analysis and generation of emotion in text, pages 26–34. Association forComputational Linguistics.
 
-Saif M Mohammad and Peter D Turney. 2013. Crowdsourcing a word–emotion association lexicon.Computational Intelligence, 29(3):436–465.
-
-
+Saif M Mohammad and Peter D Turney. 2013. Crowdsourcing a word–emotion association lexicon. Computational Intelligence, 29(3):436–465.

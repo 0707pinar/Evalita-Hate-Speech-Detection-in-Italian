@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-TASK EVALITA HATE SPEECH DETECTION IN ITALIAN
-_____________________________________________
+TASK EVALITA-2018 HATE SPEECH DETECTION IN ITALIAN
+__________________________________________________
 @inproceedings{HaSpeeDe2018Evalita,
   author    = {Bosco, Cristina  and Dell'Orletta, Felice and  Poletto, Fabio  and  Sanguinetti, Manuela and Tesconi, Maurizio},
   title     = {{Overview of the Evalita 2018 Hate Speech Detection Task}},

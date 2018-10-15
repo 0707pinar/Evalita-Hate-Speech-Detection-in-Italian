@@ -13,34 +13,10 @@ After getting the necessary resources, you can run the following scripts availab
 - *(3) "evalita_hate_speech_detection_classifier.py".* ==> The classifier yielded macro average f1-score of 0.78 when run on the test set provided by Evalita.
 
 # References
-@inproceedings{HaSpeeDe2018Evalita,
-  author    = {Bosco, Cristina  and Dell'Orletta, Felice and  Poletto, Fabio  and  Sanguinetti, Manuela and Tesconi, Maurizio},
-  title     = {{Overview of the Evalita 2018 Hate Speech Detection Task}},
-  booktitle = {Proceedings CLiC-it 2018 and EVALITA 2018},
-  month     = {December},
-  year      = {2018},
-  address   = {Torino, Italy},
-  publisher = {AILC}
-}
+Cristina  Bosco,   Felice  Dell’Orletta,   Fabio  Poletto,Manuela Sanguinetti, and Maurizio Tesconi.  2018. Overview of the Evalita 2018 Hate Speech Detection Task.   In Proceedings CLiC-it 2018 and EVALITA2018, Torino, Italy, December. AILC.
 
-@article{mohammad2013crowdsourcing,
-  title={Crowdsourcing a word--emotion association lexicon},
-  author={Mohammad, Saif M and Turney, Peter D},
-  journal={Computational Intelligence},
-  volume={29},
-  number={3},
-  pages={436--465},
-  year={2013},
-  publisher={Wiley Online Library}
-}
+Saif M Mohammad and Peter D Turney.  2010.  Emotions  evoked  by  common  words  and  phrases:  Using mechanical turk to create an emotion lexicon. InProceedings of the NAACL HLT 2010 workshop oncomputational approaches to analysis and generation of emotion in text, pages 26–34. Association forComputational Linguistics.
 
-@inproceedings{mohammad2010emotions,
-  title={Emotions evoked by common words and phrases: Using Mechanical Turk to create an emotion lexicon},
-  author={Mohammad, Saif M and Turney, Peter D},
-  booktitle={Proceedings of the NAACL HLT 2010 workshop on computational approaches to analysis and generation of emotion in text},
-  pages={26--34},
-  year={2010},
-  organization={Association for Computational Linguistics}
-}
+Saif M Mohammad and Peter D Turney. 2013. Crowdsourcing a word–emotion association lexicon.Computational Intelligence, 29(3):436–465.
 
 

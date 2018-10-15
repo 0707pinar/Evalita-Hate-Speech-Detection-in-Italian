@@ -32,22 +32,22 @@ from sklearn.metrics import precision_recall_fscore_support
 from collections import defaultdict
 from evalita_hate_speech_detection_preprocessing import preprocess_evalita_data 
 
-# Preprocess Twitter Training Set 
+# Preprocess Twitter Development Set 
 dataset = 'haspeede_TW-train.tsv'
 X, y = preprocess_evalita_data(dataset)
 
 
-# This shows the label distributions in Twitter Training Set 
+# This shows the label distributions in Twitter Development Set 
 def label_distribution(labels):
     label_count = defaultdict(int)
     for l in labels:
         label_count[l] += 1
     return label_count
 
-print("Training set label distribution:", label_distribution(y))
+print("Development set label distribution:", label_distribution(y))
 
        
-# This splits the data (i.e., Twitter Training Set) into a training set(60%), a validation set(20%) and a test set(20%)
+# This splits the data (i.e., Twitter Development Set) into a training set(60%), a validation set(20%) and a test set(20%)
 X_train, X_val_test, y_train, y_val_test = train_test_split(X, y, test_size=0.40, random_state=42)
 X_val, X_test, y_val, y_test = train_test_split(X_val_test,y_val_test, test_size=0.50, shuffle=False)
 
@@ -90,7 +90,7 @@ Yguess_validation  = classifier.predict(X_val)
 Yguess_test  = classifier.predict(X_test)
 
 # This evaluates the performance of the classifier of hate speech detection for training, validation and test sets
-print("The model has been run on 'Evalita Training Dataset'")
+print("The model has been run on 'Evalita Twitter Development Dataset'")
 print("The results of Training Set (%60 of X)")
 print("_" * 30)
 print("Classification report of the training set:\n", classification_report(y_train, Yguess_train)) # This will give us precision, recall,f score for each class as well as the average precision, recall and f score among classes. This will give us the total number of each class existing in the training set as well. 

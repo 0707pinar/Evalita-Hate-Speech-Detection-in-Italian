@@ -9,7 +9,7 @@ In order to run the classifier, the following resources are needed.
 # Scripts
 After getting the necessary resources, you can run the following scripts available in this repository:
 - *(1) "extract_italian_emolex.py"* ==> to yield the "italian_NRC_emolex.txt" containing Italian emotion and sentiment bearing words along with NRC EmoLex labels. 
-- *(2) "evalita_hate_speech_detection_preprocessing.py".* ==> to preprocess the Evalita dataset and to use labels such as word-level emotion and sentiment labels 
+- *(2) "evalita_hate_speech_detection_preprocessing.py".* ==> to preprocess the Evalita dataset and to yield labels such as word-level emotion and sentiment labels 
 - *(3) "evalita_hate_speech_detection_classifier.py".* ==> The classifier yielded macro average f1-score of 0.78 when run on the test set provided by Evalita.
 
 # References

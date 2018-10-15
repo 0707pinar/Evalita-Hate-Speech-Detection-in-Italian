@@ -1,1 +1,1 @@
-# Evalita-Hate-Speech-Detection-in-Italian
+Hate Speech Detection

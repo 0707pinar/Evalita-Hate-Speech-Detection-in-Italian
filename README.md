@@ -6,6 +6,11 @@ In order to run the classifier, the following resources are needed.
 1. Evalita Twitter Dataset  ==> obtained upon the registration of the shared task
 2. NRC Emotion Lexicon (i.e., NRC-Emotion-Lexicon-v0.92-In105Languages-Nov2017Translations.xlsx) ==> obtained upon request (https://www.nrc-cnrc.gc.ca/eng/solutions/advisory/emotion_lexicons.html)
 
+# Prerequisites
+To run the scripts, the following Python libraries are needed:
+- sklearn
+- NLTK
+
 # Scripts
 After getting the necessary resources, you can run the following scripts available in this repository:
 - *(1) "extract_italian_emolex.py"* ==> to yield the "italian_NRC_emolex.txt" containing Italian emotion and sentiment bearing words along with NRC EmoLex labels. 
